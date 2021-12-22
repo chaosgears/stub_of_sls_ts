@@ -1,0 +1,18 @@
+{
+  "name": "customer_def",
+  "version": "0.1.0",
+  "scripts": {
+    "test": "serverless-bundle test"
+  },
+  "devDependencies": {
+    "@serverless/typescript": "^2.68.0",
+    "@types/aws-lambda": "^8.10.64",
+    "@types/jest": "^26.0.14",
+    "serverless-bundle": "3.2.1",
+    "serverless-dotenv-plugin": "^3.0.0",
+    "serverless-offline": "^6.8.0"
+  },
+  "dependencies": {
+    "core_algolia": "1.2.3"
+  }
+}
